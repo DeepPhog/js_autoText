@@ -1,0 +1,58 @@
+body {
+    background-color: blue;
+    color: white;
+}
+
+.const {
+    padding: 100px 0px;
+
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    justify-content: center;
+}
+
+.speed {
+    padding: 10px 20px;
+    display: inline-flex;
+    background-color: rgba(0, 0, 212, 0.74);
+    border-radius: 2px;
+
+}
+
+.num {
+    position: relative;
+    left: 10px;
+    bottom: 2px;
+    background-color: blue;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    width: 40px;
+    height: 20px;
+}
+
+.start {
+    background-color: rgba(0, 0, 212, 0.74);
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.start:hover {
+    cursor: pointer;
+    padding: 8px;
+    border: 2px solid black;
+}
+
+.red {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
